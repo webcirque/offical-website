@@ -15,7 +15,7 @@
                     <span class="sr-only">PWCQ</span>
                     <img class="h-8 w-auto sm:h-10" src="@/assets/white_logo.png" alt=""/>
                   </a>
-                  <div class="-mr-2 flex items-center md:hidden">
+                  <div class="mr-2 flex items-center md:hidden">
                     <button @click="isOpen = !isOpen" type="button" class="bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
                       <span class="sr-only">Open main menu</span>
                       <!-- Heroicon name: outline/menu -->
@@ -65,13 +65,13 @@
                 </div>
               </div>
               <div class="px-2 pt-2 pb-3 space-y-1">
-                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-white hover:bg-gray-900">Home</a>
+                <router-link to="/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-white hover:bg-gray-900">Home</router-link>
 
-                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-white hover:bg-gray-900">Projects</a>
+                <router-link to="/project" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-white hover:bg-gray-900">Projects</router-link>
 
-                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-white hover:bg-gray-900">Developers</a>
+                <router-link to="/about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-white hover:bg-gray-900">About</router-link>
 
-                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-white hover:bg-gray-900">Links</a>
+                <a href="https://github.com/webcirque" target="_blank" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-white hover:bg-gray-900">Github</a>
               </div>
             </div>
           </div>
