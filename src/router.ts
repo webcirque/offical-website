@@ -13,7 +13,7 @@ const routes = [
     component: DefaultLayout,
     children: [
       {
-        path: "/project",
+        path: "/projects",
         name: "Project",
         component: () => import("@/views/Project.vue"),
       },

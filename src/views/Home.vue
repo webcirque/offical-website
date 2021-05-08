@@ -1,7 +1,7 @@
 <template>
   <div class="relative bg-gray-900 overflow-hidden" style="min-height: 100vh;">
     <div class="max-w-7xl mx-auto">
-      <div class="relative z-10 pb-8 bg-gray-900 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+      <div class="relative z-10 pb-1 bg-gray-900 lg:max-w-2xl lg:w-full">
         <svg class="hidden lg:block absolute right-0 inset-y-0 h-screen w-48 text-gray-900 transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
           <polygon points="50,0 100,0 50,100 0,100" />
         </svg>
@@ -29,7 +29,7 @@
               <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                 <router-link to="/" class="font-medium text-gray-400 hover:text-gray-300">Home</router-link>
 
-                <router-link to="/project" class="font-medium text-gray-400 hover:text-gray-300">Projects</router-link>
+                <router-link to="/projects" class="font-medium text-gray-400 hover:text-gray-300">Projects</router-link>
 
                 <router-link to="/about" class="font-medium text-gray-400 hover:text-gray-300">About</router-link>
 
@@ -77,26 +77,30 @@
           </div>
         </div>
 
-        <main class="mt-10 mb-20 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:h-full lg:mt-20 lg:px-8 xl:mt-28">
+        <main class="mt-10 mb-1 mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:h-full lg:mt-14 lg:px-8 xl:mt-14">
           <div class="">
             <div class="sm:text-center lg:text-left">
               <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <span class="block text-white">PWCQ</span>
-                <span class="block text-indigo-100">About Webcirque</span>
+                <span class="block text-white">Project Webcirque</span>
               </h1>
+              <br/>
+              <h2 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl">
+                <span class="block text-indigo-100">About Us</span>
+              </h2>
               <p class="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Project Webcirque is a project that aims to find possibilities of programmming languages available at present and create small projects to realize and achieve the possibilities!
               </p>
             </div>
 
             <div class="mt-10 sm:text-center lg:text-left">
-              <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+              <h2 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl">
                 <span class="block text-indigo-100">Developers</span>
-              </h1>
+              </h2>
               <p class="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 We developers has various professions, various programming experiences, so we don't stay at the same level.
               </p>
-              <p class="mt-10 text-gray-500">Copyright Project Webcirque © 2018-{{ new Date().getFullYear() }}. All rights reserved.</p>
+              <p class="mt-10 text-gray-500">Copyright Project Webcirque © 2016-{{ new Date().getFullYear() }}.</p>
+              <p>If without further explanation, contents served are licensed under <br/>CC BY-NC-SA 4.0 License.</p>
             </div>
           </div>
         </main>

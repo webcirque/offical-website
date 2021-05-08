@@ -22,7 +22,7 @@
         <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
           <router-link to="/" class="font-medium text-gray-400 hover:text-gray-300">Home</router-link>
 
-          <router-link to="/project" class="font-medium text-gray-400 hover:text-gray-300">Projects</router-link>
+          <router-link to="/projects" class="font-medium text-gray-400 hover:text-gray-300">Projects</router-link>
 
           <router-link to="/about" class="font-medium text-gray-400 hover:text-gray-300">About</router-link>
 
@@ -60,7 +60,7 @@
         <div class="px-2 pt-2 pb-3 space-y-1">
           <router-link to="/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-white hover:bg-gray-900">Home</router-link>
 
-          <router-link to="/project" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-white hover:bg-gray-900">Projects</router-link>
+          <router-link to="/projects" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-white hover:bg-gray-900">Projects</router-link>
 
           <router-link to="/about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-white hover:bg-gray-900">About</router-link>
     
